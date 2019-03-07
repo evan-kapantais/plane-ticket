@@ -10,17 +10,17 @@ body {
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif, serif;
   font-weight: 500;
+}
 
+.container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.container {
   width: 500px;
   background: #fff;
   padding: 40px 0;
+  box-shadow: 2px 0px 20px 1px #333;
 }
 
 /* Header */
@@ -52,7 +52,7 @@ h2 {
 .flight-details {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 h4 {
@@ -75,4 +75,13 @@ h5 {
   flex-direction: column;
   justify-content: space-around;
   margin-left: 20px;
+}
+
+img {
+  transition: all .2s ease;
+  z-index: 2;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
