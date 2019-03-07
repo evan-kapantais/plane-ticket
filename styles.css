@@ -1,5 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px dotted #ccc; */
+}
+
 body {
   background-image: url(img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif, serif;
+  font-weight: 500;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  width: 500px;
+  background: #fff;
+  padding: 40px 0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.to {text-align: right;}
+
+h1 {
+  font-family: 'Prompt', sans-serif, serif;
+  font-size: 3rem;
+  color: skyblue;
+}
+
+.dash {
+  color: skyblue;
+  font-size: 6rem;
+}
+h2 {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.flight-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+h5 {
+  font-size: 1rem;
+  color: rgb(119, 119, 119);
+}
+
+.passenger-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.passenger-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
 }
